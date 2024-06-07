@@ -13,11 +13,10 @@ export const Footer = () => {
             <Link className=" hover:underline" href="/contacto">Contacto</Link>
         </div>
         <div className="text-white flex flex-col w-full md:pl-10 gap-5">
-            <h4 className="text-2xl font-semibold">Contacto</h4>
             <p>Email:</p>
             <p>Oficina Río Ceballos: +54 351 123 4567</p>
             <p>Oficina Salsipuedes: +54 351 765 4321</p>
-            <Link href={"https://wa.me/3511234567"} target="_blank" className="hover:underline font-semibold text-lg bg-white letra-roja w-fit p-1 px-2 rounded-md">Whatsapp</Link>
+            <Link href={"https://wa.me/3511234567"} target="_blank" className="underline w-fit">Whatsapp</Link>
         </div>
       </footer>
     </div>

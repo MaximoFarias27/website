@@ -27,7 +27,7 @@ const FAQs = () => {
     "Ofrecemos una amplia gama de servicios inmobiliarios en Sierras Chicas, incluyendo la administración de propiedades en alquiler, la venta de propiedades y terrenos, y asesoría en inversiones inmobiliarias. ",
     "Elegirnos significa contar con una inmobiliaria en Río Ceballos que valora la confianza, la transparencia y el asesoramiento personalizado. Con años de experiencia estamos comprometidos a ofrecer el mejor servicio en la región.",
     "Puedes contactarnos a través de nuestro correo electrónico, teléfonos o WhatsApp. Te guiaremos en cada paso del proceso, desde la tasación hasta la firma del contrato de alquiler. Gestionamos casas en alquiler en Río Ceballos, Salsipuedes y demás localidades con total seriedad y compromiso.",
-    "Es importante considerar la ubicación, el estado de la propiedad y tus necesidades personales. Te ayudaremos a encontrar la **casa en venta en Río Ceballos** o **Salsipuedes** que se ajuste a tus preferencias y presupuesto.",
+    "Es importante considerar la ubicación, el estado de la propiedad y tus necesidades personales. Te ayudaremos a encontrar la casa en venta en Río Ceballos o Salsipuedes que se ajuste a tus preferencias y presupuesto.",
   ];
   return (
     <div className="lg:container lg:mx-auto md:px-6 px-4">

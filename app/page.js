@@ -1,4 +1,5 @@
 import FAQs from "@/components/FAQS";
+import { Hero } from "@/components/Hero";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,45 +8,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col items-center">
       <div className="max-w-[1200px] w-[90%] flex flex-col items-center mb-20">
-
-        <div className="fondo-landing min-h-[600px] w-full rounded-lg pl-20 flex flex-col justify-center gap-10">
-          <h1 className="text-5xl font-black text-white max-w-[600px]">Bienvenidos a Farias Cornejo</h1>
-          <h2 className="text-3xl font-medium text-white">
-            Inmobiliaria en Rio Ceballos
-          </h2>
-          <div className="flex flex-row w-fit mt-6 gap-4">
-            <Link
-              href="https://fariascorejo58.kitepropcrm.com/"
-              target="_blank"
-              className="flex fondo-rojo text-white text-lg font-semibold py-2 px-4 rounded-lg gap-3 transition-all duration-300 hover:bg-red-900"
-            >
-              Ver propiedades
-
-            </Link>
-            <Link
-              href="/contacto"
-              className="flex text-white text-lg font-semibold py-2 px-4 rounded-lg gap-3 transition-colors duration-300 hover:text-stone-100"
-            >Contactanos</Link>
-          </div>
-        </div>
-        <div className="h-24 w-9/12 fondo-rojo pt-1 rounded-lg -translate-y-16 grid grid-cols-4">
-          <div className="flex flex-col items-center h-20 justify-end gap-2">
-            <Image src="/casa.svg" width={40} height={40} />
-            <h3 className="text-white font-semibold text-md text-center">Tasaciones</h3>
-          </div>
-          <div className="flex flex-col items-center h-20 justify-end gap-2">
-            <Image src="/venta.svg" width={33} height={33} />
-            <h3 className="text-white font-semibold text-md text-center">Propiedades</h3>
-          </div>
-          <div className="flex flex-col items-center h-20 justify-end gap-1">
-            <Image src="/llaves.svg" width={23} height={23} />
-            <h3 className="text-white font-semibold text-md text-center">Alquileres</h3>
-          </div>
-          <div className="flex flex-col items-center h-20 justify-end gap-2">
-            <Image src="/terrenos.svg" width={40} height={40} />
-            <h3 className="text-white font-semibold text-md text-center">Terrenos</h3>
-          </div>
-        </div>
+        <Hero/>
         <p className="w-full text-lg mb-8">
           En Inmobiliaria Farias Cornejo, somos más que una simple inmobiliaria en Sierras Chicas; somos sus aliados en los momentos más importantes de su vida. <strong>Confiabilidad, seguridad y un asesoramiento experto</strong> son los pilares que nos definen. Estamos aquí para guiarlo en cada paso, ya sea que busque comprar una casa en Sierras Chicas, vender una propiedad en Córdoba o encontrar casas en alquiler en Río Ceballos. Nuestra misión es hacer de su experiencia inmobiliaria un proceso transparente, seguro y exitoso.
         </p>

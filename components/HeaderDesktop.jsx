@@ -23,8 +23,8 @@ export const HeaderDesktop = () => {
   const path = usePathname();
 
   return (
-    <nav className="md:flex py-6 hidden justify-center flex-row">
-      <div className="max-w-[1200px] w-[90%] flex justify-between items-center flex-row fondo-rojo rounded-md">
+    <nav className="md:flex mb-10 hidden justify-center flex-row fondo-rojo py-1">
+      <div className="max-w-[1200px] w-[90%] flex justify-between items-center flex-row">
         <Link href="/">
           <Image
             src="/Logo.png"
@@ -40,8 +40,8 @@ export const HeaderDesktop = () => {
               key={index}
               href={item.path}
               className={`h-full inline-block px-4 py-2 text-lg font-semibold text-white hover:scale-95 transition-all duration-300 ${
-                path === item.path ? "subrayado" : ""
-              }`}
+                path.includes === item.path ? "subrayado" : ""
+              } ${path.includes("blog") && index === 1 && "subrayado"}`}
             >
               {item.label}
             </Link>
