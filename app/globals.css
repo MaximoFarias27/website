@@ -2,32 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html{
+    background-color: #efefef;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.letra-roja {
+    color: #9e1c20;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.fondo-rojo {
+    background-color: #9e1c20;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.subrayado {
+    text-decoration: underline white 3px;
+    text-underline-offset: 5px;
+}
+
+.subrayado-rojo {
+    text-decoration: underline #9e1c20 6px;
+    text-underline-offset: 5px;
+}
+
+.test {
+    border: 1px solid green;
+}
+
+.fondo-landing {
+    background-image: url('/Landing.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fondo-alquiler-zona {
+    background-image: url('/alquiler-zona.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fondo-terrenos-venta {
+    background-image: url('/terrenos-venta.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fondo-comprar-zona {
+    background-image: url('/comprar-zona.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.faqs{
+    border-bottom: 1px solid #cfcfcf;
+}
+.primer-faqs{
+    border-bottom: 1px solid #cfcfcf;
+    border-top: 1px solid #cfcfcf;
+    padding-top: 40px;;
 }
