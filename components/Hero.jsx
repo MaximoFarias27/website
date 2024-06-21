@@ -3,13 +3,13 @@ import Link from "next/link";
 
 export const Hero = () => {
   return (
-    <div className="flex flex-col items-center w-full">
+    <div className="hidden flex-col items-center w-full md:flex">
       <div className="fondo-landing min-h-[600px] w-full rounded-lg pl-20 flex flex-col justify-center gap-10">
-        <h1 className="text-5xl font-black text-white max-w-[600px]">
-          Bienvenidos a Farias Cornejo
+        <h1 className="text-5xl font-black text-white ">
+          Bienvenidos a Inmobiliaria Farias Cornejo
         </h1>
         <h2 className="text-3xl font-medium text-white">
-          Inmobiliaria en Rio Ceballos
+        Administración y venta de propiedades
         </h2>
         <div className="flex flex-row w-fit mt-6 gap-4">
           <Link
@@ -21,7 +21,7 @@ export const Hero = () => {
           </Link>
           <Link
             href="/contacto"
-            className="flex text-white text-lg font-semibold py-2 px-4 rounded-lg gap-3 transition-colors duration-300 hover:text-stone-100"
+            className="flex fondo-rojo text-white text-lg font-semibold py-2 px-4 rounded-lg gap-3 transition-all duration-300 hover:bg-red-900"
           >
             Contactanos
           </Link>

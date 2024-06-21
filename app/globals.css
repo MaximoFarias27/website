@@ -62,3 +62,9 @@ html{
     border-top: 1px solid #cfcfcf;
     padding-top: 40px;;
 }
+
+iframe a img{
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
