@@ -4,6 +4,7 @@ import Link from "next/link";
 export const Hero = () => {
   return (
     <>
+    {/* Para escritorio */}
       <div className="hidden flex-col items-center w-full md:flex">
         <div className="fondo-landing min-h-[600px] w-full rounded-lg pl-20 flex flex-col justify-center gap-10">
           <h1 className="text-5xl font-black text-white ">
@@ -55,6 +56,7 @@ export const Hero = () => {
           </div>
         </div>
       </div>
+      {/* Para celular */}
       <div className="flex flex-col w-full md:hidden">
         <h1 className="letra-roja font-bold text-3xl mb-3">Bienvenidos a Inmobiliaria Farias Cornejo</h1>
         <h2 className="mb-5 text-xl">Administración y venta de propiedades</h2>{" "}
@@ -74,28 +76,28 @@ export const Hero = () => {
             Contactanos
           </Link>
         </div>
-        <div className="fondo-rojo rounded-lg grid-cols-4 grid my-6">
+        <div className="fondo-rojo rounded-lg grid-cols-4 grid my-6 justify-center items-center">
           <div className="flex flex-col py-5 md:py-0 items-center h-full justify-center gap-2">
-            <Image src="/casa.svg" width={40} height={40} />
-            <h3 className="text-white font-semibold text-md text-center">
+            <Image src="/casa.svg" width={25} height={25} />
+            <h3 className="text-white font-semibold text-[10px] text-center">
               Tasaciones
             </h3>
           </div>
           <div className="flex flex-col py-5 md:py-0 items-center h-full justify-center gap-2">
-            <Image src="/venta.svg" width={33} height={33} />
-            <h3 className="text-white font-semibold text-md text-center">
+            <Image src="/venta.svg" width={20} height={20} />
+            <h3 className="text-white font-semibold text-[10px] text-center">
               Propiedades
             </h3>
           </div>
           <div className="flex flex-col py-5 md:py-0 items-center h-full justify-center gap-1">
-            <Image src="/llaves.svg" width={23} height={23} />
-            <h3 className="text-white font-semibold text-md text-center">
+            <Image src="/llaves.svg" width={15} height={15} />
+            <h3 className="text-white font-semibold text-[10px] text-center">
               Alquileres
             </h3>
           </div>
           <div className="flex flex-col py-5 md:py-0 items-center h-full justify-center gap-2">
-            <Image src="/terrenos.svg" width={40} height={40} />
-            <h3 className="text-white font-semibold text-md text-center">
+            <Image src="/terrenos.svg" width={30} height={30} />
+            <h3 className="text-white font-semibold text-[10px] text-center">
               Terrenos
             </h3>
           </div>
