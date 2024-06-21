@@ -78,8 +78,8 @@ export const Hero = () => {
             Contactanos
           </Link>
         </div>
-        <ul className="fondo-rojo rounded-lg w-fit mx-auto my-10 px-4 flex flex-row gap-5">
-          <div className="flex flex-col">
+        <ul className="fondo-rojo rounded-lg w-fit mx-auto my-10 px-4 flex flex-row gap-2">
+          <div className="flex gap-2">
             <div className="flex flex-col py-5 md:py-0 items-center h-full justify-center gap-2">
               <Image src="/casa.svg" width={25} height={25} />
               <h3 className="text-white font-semibold text-[10px] text-center">
@@ -93,7 +93,7 @@ export const Hero = () => {
               </h3>
             </div>
           </div>
-          <div className="flex flex-col">
+          <div className="flex gap-2">
             <div className="flex flex-col py-5 md:py-0 items-center h-full justify-center gap-1">
               <Image src="/llaves.svg" width={15} height={15} />
               <h3 className="text-white font-semibold text-[10px] text-center">
