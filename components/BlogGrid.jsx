@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const BlogGrid = () => {
   return (
-    <div className="w-[1000px] mt-10 grid md:grid-cols-3 grid-cols-1 gap-6">
+    <div className="w-max-[1200px] w-[95%] mt-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
       {blogs.map((blog) => (
         <Link href={`/blog/${blog.id}`} key={blog.id} className="rounded-md w-full shadow-xl">
           <img
