@@ -31,7 +31,8 @@ html{
 .fondo-landing {
     background-image: url('/Landing.webp');
     background-size: contain;
-    background-position: center;
+    /* Hasta 1350px */
+    height: 675px;
     background-repeat: no-repeat;
 }
 
@@ -50,7 +51,7 @@ html{
 .fondo-comprar-zona {
     background-image: url('/comprar-zona.png');
     background-size: cover;
-    background-position: center;
+    background-position: start;
     background-repeat: no-repeat;
 }
 
@@ -67,4 +68,9 @@ iframe a img{
     display: none !important;
     opacity: 0 !important;
     visibility: hidden !important;
+}
+
+.carousel{
+    min-width: 90%;
+    max-width: 1200px !important;
 }

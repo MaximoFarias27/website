@@ -10,12 +10,14 @@ export default function BlogPage() {
         </p>
         <div className="w-full flex flex-col md:flex-row gap-10 md:pl-5">
           <div className="w-full md:w-1/2 flex flex-col gap-4">
-            <p className="text-lg md:pl-5">Email: oficina.fariascornejo@gmail.com</p>
-            <p className="text-lg md:pl-5">WhatsApp: <Link href={"https://wa.me/3511234567"} target="_blank" className="underline font-medium hover:text-red-800">Envíanos un mensaje</Link></p>
             <h3 className="text-2xl mt-5 letra-roja">Oficinas Río Ceballos</h3>
-            <p className="text-lg md:pl-5">Telefono: +54 351 123 4567</p>
+            <p className="text-lg md:pl-5">Telefono: 451037</p>
+            <p className="text-lg md:pl-5">Direccion: Av. San Martín 4185, Río Ceballos, Córdoba</p>
+            <p className="text-lg md:pl-5">Email: oficina.fariascornejo@gmail.com</p>
             <h3 className="text-2xl mt-5 letra-roja">Oficinas Salsipuedes</h3>
-            <p className="text-lg md:pl-5">Telefono: +54 351 765 4321</p>
+            <p className="text-lg md:pl-5">Telefono: 3543620495</p>
+            <p className="text-lg md:pl-5">Email: fariacornejo.salsipuedes@gmail.com</p>
+            <p className="text-lg md:pl-5">Dirección: Av. Gral Paz 2 Esq Ruta E53, Salsipuedes</p>
           </div>
         </div>
 

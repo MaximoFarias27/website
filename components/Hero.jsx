@@ -11,7 +11,7 @@ export const Hero = () => {
             Bienvenidos a Inmobiliaria Farias Cornejo
           </h1>
           <h2 className="text-3xl font-medium text-white">
-            Administración y venta de propiedades
+            Administración y venta de propiedades - Tasacioiones
           </h2>
           <div className="flex flex-row w-fit mt-6 gap-4">
             <Link
@@ -31,25 +31,25 @@ export const Hero = () => {
         </div>
         <div className="md:h-24 w-9/12 md:pt-1 fondo-rojo rounded-lg -translate-y-16 grid md:grid-cols-4 grid-cols-2">
           <div className="flex flex-col py-5 md:py-0 items-center h-full justify-center gap-2">
-            <Image src="/casa.svg" width={40} height={40} />
+            <Image src="/iconos/casa.svg" width={40} height={40} />
             <h3 className="text-white font-semibold text-md text-center">
               Tasaciones
             </h3>
           </div>
           <div className="flex flex-col py-5 md:py-0 items-center h-full justify-center gap-2">
-            <Image src="/venta.svg" width={33} height={33} />
+            <Image src="/iconos/venta.svg" width={33} height={33} />
             <h3 className="text-white font-semibold text-md text-center">
               Propiedades
             </h3>
           </div>
           <div className="flex flex-col py-5 md:py-0 items-center h-full justify-center gap-1">
-            <Image src="/llaves.svg" width={23} height={23} />
+            <Image src="/iconos/llaves.svg" width={23} height={23} />
             <h3 className="text-white font-semibold text-md text-center">
               Alquileres
             </h3>
           </div>
           <div className="flex flex-col py-5 md:py-0 items-center h-full justify-center gap-2">
-            <Image src="/terrenos.svg" width={40} height={40} />
+            <Image src="/iconos/terrenos.svg" width={40} height={40} />
             <h3 className="text-white font-semibold text-md text-center">
               Terrenos
             </h3>
@@ -61,7 +61,7 @@ export const Hero = () => {
         <h1 className="letra-roja font-bold text-3xl mb-3">
           Bienvenidos a Inmobiliaria Farias Cornejo
         </h1>
-        <h2 className="mb-5 text-xl">Administración y venta de propiedades</h2>{" "}
+        <h2 className="mb-5 text-xl">Administración y venta de propiedades - Tasacioiones</h2>{" "}
         <img src="/Landing.webp" className="rounded-xl mb-4"></img>
         <div className="flex flex-row justify-around w-full gap-4">
           <Link
@@ -81,13 +81,13 @@ export const Hero = () => {
         <ul className="fondo-rojo rounded-lg w-fit mx-auto my-10 px-4 flex flex-row gap-2">
           <div className="flex gap-2">
             <div className="flex flex-col py-5 md:py-0 items-center h-full justify-center gap-2">
-              <Image src="/casa.svg" width={25} height={25} />
+              <Image src="/iconos/casa.svg" width={25} height={25} />
               <h3 className="text-white font-semibold text-[10px] text-center">
                 Tasaciones
               </h3>
             </div>
             <div className="flex flex-col py-5 md:py-0 items-center h-full justify-center gap-2">
-              <Image src="/venta.svg" width={20} height={20} />
+              <Image src="/iconos/venta.svg" width={20} height={20} />
               <h3 className="text-white font-semibold text-[10px] text-center">
                 Propiedades
               </h3>
@@ -95,13 +95,13 @@ export const Hero = () => {
           </div>
           <div className="flex gap-2">
             <div className="flex flex-col py-5 md:py-0 items-center h-full justify-center gap-1">
-              <Image src="/llaves.svg" width={15} height={15} />
+              <Image src="/iconos/llaves.svg" width={15} height={15} />
               <h3 className="text-white font-semibold text-[10px] text-center">
                 Alquileres
               </h3>
             </div>
             <div className="flex flex-col py-5 md:py-0 items-center h-full justify-center gap-2">
-              <Image src="/terrenos.svg" width={30} height={30} />
+              <Image src="/iconos/terrenos.svg" width={30} height={30} />
               <h3 className="text-white font-semibold text-[10px] text-center">
                 Terrenos
               </h3>
