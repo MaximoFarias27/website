@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
+html {
     background-color: #efefef;
 }
 
@@ -30,10 +30,31 @@ html{
 
 .fondo-landing {
     background-image: url('/Landing.webp');
-    background-size: contain;
-    /* Hasta 1350px */
-    height: 675px;
+    background-size: cover;
     background-repeat: no-repeat;
+    animation: changeBg 10s ease infinite;
+}
+
+@keyframes changeBg {
+    0% {
+        background-image: url('/Landing-2.webp');
+    }
+
+    5% {
+        background-image: url('/Landing.webp');
+    }
+
+    60% {
+        background-image: url('/Landing.webp');
+    }
+
+    65% {
+        background-image: url('/Landing-2.webp');
+    }
+
+    100% {
+        background-image: url('/Landing-2.webp');
+    }
 }
 
 .fondo-alquiler-zona {
@@ -42,12 +63,14 @@ html{
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .fondo-terrenos-venta {
     background-image: url('/terrenos-venta.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .fondo-comprar-zona {
     background-image: url('/comprar-zona.png');
     background-size: cover;
@@ -55,22 +78,24 @@ html{
     background-repeat: no-repeat;
 }
 
-.faqs{
+.faqs {
     border-bottom: 1px solid #cfcfcf;
-}
-.primer-faqs{
-    border-bottom: 1px solid #cfcfcf;
-    border-top: 1px solid #cfcfcf;
-    padding-top: 40px;;
 }
 
-iframe a img{
+.primer-faqs {
+    border-bottom: 1px solid #cfcfcf;
+    border-top: 1px solid #cfcfcf;
+    padding-top: 40px;
+    ;
+}
+
+iframe a img {
     display: none !important;
     opacity: 0 !important;
     visibility: hidden !important;
 }
 
-.carousel{
+.carousel {
     min-width: 90%;
     max-width: 1200px !important;
 }
