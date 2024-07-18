@@ -11,9 +11,10 @@ export default function ContactPage() {
         <div className="w-full flex flex-col md:flex-row gap-10 md:pl-5">
           <div className="w-full md:w-1/2 flex flex-col gap-4">
             <h3 className="text-2xl mt-5 letra-roja">Oficina Río Ceballos</h3>
-            <p className="text-lg md:pl-5">Telefono: 451037</p>
-            <p className="text-lg md:pl-5">Direccion: Av. San Martín 4185, Río Ceballos, Córdoba</p>
+            <p className="text-lg md:pl-5">Telefono: 3543 451037</p>
+            <p className="text-lg md:pl-5">Celular: 3543 531227</p>
             <p className="text-lg md:pl-5">Email: oficina.fariascornejo@gmail.com</p>
+            <p className="text-lg md:pl-5">Direccion: Av. San Martín 4185, Río Ceballos, Córdoba</p>
             <h3 className="text-2xl mt-5 letra-roja">Oficina Salsipuedes</h3>
             <p className="text-lg md:pl-5">Telefono: 3543620495</p>
             <p className="text-lg md:pl-5">Email: fariacornejo.salsipuedes@gmail.com</p>
