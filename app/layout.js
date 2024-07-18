@@ -3,8 +3,9 @@ import "./globals.css";
 import { HeaderDesktop } from "@/components/HeaderDesktop";
 import { HeaderMobile } from "@/components/HeaderMobile";
 import { Footer } from "@/components/Footer";
+import { Whatsapp } from "@/components/Whatsapp";
 
-const merriweather = Merriweather({ subsets: ["latin"], weight:["300", "400", "700", "900"] });
+const merriweather = Merriweather({ subsets: ["latin"], weight: ["300", "400", "700", "900"] });
 
 export const metadata = {
   title: "Farias Cornejo",
@@ -15,11 +16,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={merriweather.className}>
+        <Whatsapp />
         <HeaderDesktop />
         <HeaderMobile />
         {children}
         <Footer />
-        </body>
+      </body>
     </html>
   );
 }
