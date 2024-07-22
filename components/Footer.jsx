@@ -24,10 +24,10 @@ export const Footer = () => {
           <p className="text-sm mt-1"> <b>Celular:</b>3543 531227</p>
           <p className="text-sm mt-1"> <b>Email:</b> oficina.fariascornejo@gmail.com</p>
           <p className="text-sm mt-1 mb-3"> <b>Direccion:</b> Av. San Martín 4185, Río Ceballos, Córdoba</p>
-          <div className="bg-white h-[2px] my-10 lg:my-0"></div>
+          <div className="bg-white h-[2px] my-12 lg:my-4"></div>
           <h3 className="text-lg mb-2 mt-3">Oficina Salsipuedes</h3>
           <p className="text-sm mt-1"> <b>Telefono:</b> 3543620495</p>
-          <p className="text-sm mt-1"> <b>Email:</b> fariacornejo.salsipuedes@gmail.com</p>
+          <p className="text-sm mt-1"> <b>Email:</b> fariascornejo.salsipuedes@gmail.com</p>
           <p className="text-sm mt-1"> <b>Dirección:</b> Av. Gral Paz 2 Esq Ruta E53, Salsipuedes</p>
         </div>
       </footer>

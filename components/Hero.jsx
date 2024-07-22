@@ -11,7 +11,7 @@ export const Hero = () => {
             Bienvenidos a Inmobiliaria Farias Cornejo
           </h1>
           <h2 className="text-3xl font-medium text-white">
-            Administración y venta de propiedades - Tasacioiones
+            Administración y venta de propiedades - Tasaciones
           </h2>
           <div className="flex flex-row w-fit mt-6 gap-4">
             <Link
@@ -61,7 +61,7 @@ export const Hero = () => {
         <h1 className="letra-roja font-bold text-3xl mb-3">
           Bienvenidos a Inmobiliaria Farias Cornejo
         </h1>
-        <h2 className="mb-5 text-xl">Administración y venta de propiedades - Tasacioiones</h2>{" "}
+        <h2 className="mb-5 text-xl">Administración y venta de propiedades - Tasaciones</h2>{" "}
         <img src="/Landing.webp" className="rounded-xl mb-4"></img>
         <div className="flex flex-row justify-around w-full gap-4">
           <Link

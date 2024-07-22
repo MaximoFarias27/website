@@ -48,13 +48,13 @@ const Carousel = ({ interval = 3000 }) => {
           ))}
         </div>
         <div className="md:absolute inset-0 flex flex-col justify-center items-center md:text-white py-10 md:p-10 md:bg-black md:bg-opacity-50 rounded-lg pt-16">
-          <h3 className="w-full md:text-3xl text-2xl font-semibold mb-4 md:text-center letra-roja md:text-white">
+          <h3 className="w-full md:text-2xl lg:text-3xl text-2xl font-semibold mb-4 md:text-center letra-roja md:text-white">
             Conozca a Farias Cornejo Negocios Inmobiliarios
           </h3>
-          <h4 className="w-full md:text-2xl text-lg font-semibold mb-4 md:text-center letra-roja md:text-white">
+          <h4 className="w-full md:text-xl lg:text-2xl text-lg font-semibold mb-4 md:text-center letra-roja md:text-white">
             Inversiones Inmobiliarias en Sierras Chicas
           </h4>
-          <p className="w-full md:text-lg text-md mb-8 md:text-center">
+          <p className="w-full md:text-sm lg:text-lg text-md md:mb-4 lg:mb-8 md:text-center">
             Somos Fabián Farías y Ximena Cornejo, los fundadores de Inmobiliaria
             Farias Cornejo. Con oficinas en Río Ceballos y Salsipuedes, nuestra
             pasión es ayudar a nuestros clientes a encontrar su hogar ideal o
@@ -62,7 +62,7 @@ const Carousel = ({ interval = 3000 }) => {
             enorgullecemos de ofrecer un servicio personalizado basado en la
             confianza, la honestidad y la transparencia.
           </p>
-          <p className="w-full md:text-lg text-md mb-8 md:text-center">
+          <p className="w-full md:text-sm lg:text-lg text-md md:mb-4 lg:mb-8 md:text-center">
             Fabián dirige el área comercial, aportando su experiencia y dedicación
             para asegurar que cada cliente tome decisiones bien informadas y
             alineadas con sus necesidades y sueños. Ximena, encargada de la
@@ -71,7 +71,7 @@ const Carousel = ({ interval = 3000 }) => {
             nuestra gestión se mantenga en perfectas condiciones, asegurando la
             tranquilidad de nuestros clientes.
           </p>
-          <p className="w-full md:text-lg text-md mb-8 md:text-center">
+          <p className="w-full md:text-sm lg:text-lg text-md md:mb-4 lg:mb-8 md:text-center">
             Nuestra visión es ser referentes de inmobiliarias en Sierras Chicas,
             acompañando el crecimiento de la región y contribuyendo a mejorar la
             calidad de vida de sus habitantes.

@@ -17,17 +17,17 @@ const FAQs = () => {
   };
 
   const questions = [
-    "¿Qué servicios ofrece Farias Cornejo?",
-    "¿Por qué elegir a Inmobiliaria Farias Cornejo en Río Ceballos?",
-    "¿Cómo puedo poner en alquiler mi casa con Farias Cornejo?",
-    "¿Qué debo considerar al comprar una casa en Sierras Chicas?",
+    "¿Qué servicios ofrece Inmobiliaria Farias Cornejo?",
+    "¿Por qué elegir a Inmobiliaria Farias Cornejo?",
+    "Alquilar mi propiedad con inmobiliaria farias cornejo",
+    "Consideraciones para la compra venta de una propiedad",
   ];
 
   const answer = [
-    "Ofrecemos una amplia gama de servicios inmobiliarios en Sierras Chicas, incluyendo la administración de propiedades en alquiler, la venta de propiedades y terrenos, y asesoría en inversiones inmobiliarias. ",
-    "Elegirnos significa contar con una inmobiliaria en Río Ceballos que valora la confianza, la transparencia y el asesoramiento personalizado. Con años de experiencia estamos comprometidos a ofrecer el mejor servicio en la región.",
-    "Puedes contactarnos a través de nuestro correo electrónico, teléfonos o WhatsApp. Te guiaremos en cada paso del proceso, desde la tasación hasta la firma del contrato de alquiler. Gestionamos casas en alquiler en Río Ceballos, Salsipuedes y demás localidades con total seriedad y compromiso.",
-    "Es importante considerar la ubicación, el estado de la propiedad y tus necesidades personales. Te ayudaremos a encontrar la casa en venta en Río Ceballos o Salsipuedes que se ajuste a tus preferencias y presupuesto.",
+    `Ofrecemos servicios como: Tasaciones con fines judiciales, de valoración, de separación de bienes, o para conocer el valor real de la propiedad en el mercado, administración de propiedades, alquileres, ⁠ventas, ⁠asesoramiento jurídico inmobiliario y  ⁠evaluación de proyectos inmobiliarios`,
+    "Nuestra trayectoria nos define con un alto nivel de compromiso y profesionalismo en la gestión de las propiedades de nuestros clientes. Priorizamos la Transparencia y asesoramiento personalizado, esto sumado a nuestra experiencia nos posiciona como la inmobiliaria mas fuerte de la región.",
+    "Podes contactarnos a traves de nuestros teléfonos, whatsapp o correo electrónico. Te vamos a guiar de forma segura en cada paso del proceso, desde la tasación…..”. Asumimos el compromiso a través de nuestra gestión de que puedas contar con una administración altamente eficiente.",
+    "Cuando realizamos una operación inmobiliaria, sabemos que no se trata del mero hecho de adquiere o desprenderse de un bien inmueble. Una propiedad, alberga un cúmulo de emociones que en cada caso tendra sus características particulares. El nacimiento de nuestros hijos, las añoranzas de la rutina diaria, alegrias, tristezas, familia, historia. Todo esto, influye de una manera muy significativa para nuestros clientes al momento de decidir la vender. ⁠Para el comprador, la proyección del arraigo en un lugar y todo lo que eso implica para ese futuro, hace que la elección del lugar se transforme en un aspecto muy relevante.\n ⁠Por eso, en cada operación realizada dejamos de lado el aspecto meramente comercial para enfocarnos en la necesidad de nuestros clientes.",
   ];
   return (
     <div className="lg:container lg:mx-auto md:px-6 px-4">

@@ -17,7 +17,7 @@ export default function ContactPage() {
             <p className="text-lg md:pl-5">Direccion: Av. San Martín 4185, Río Ceballos, Córdoba</p>
             <h3 className="text-2xl mt-5 letra-roja">Oficina Salsipuedes</h3>
             <p className="text-lg md:pl-5">Telefono: 3543620495</p>
-            <p className="text-lg md:pl-5">Email: fariacornejo.salsipuedes@gmail.com</p>
+            <p className="text-lg md:pl-5">Email: fariascornejo.salsipuedes@gmail.com</p>
             <p className="text-lg md:pl-5">Dirección: Av. Gral Paz 2 Esq Ruta E53, Salsipuedes</p>
           </div>
         </div>
