@@ -10,7 +10,7 @@ const BlogPost = () => {
   return (
     <div className="flex flex-col items-center">
       <div className="max-w-[1200px] w-[90%] flex flex-col items-center mb-20">
-        <h1 className="text-4xl font-semibold mt-20">{actualBlog.titulo}</h1>
+        <h1 className="md:text-4xl text-2xl font-semibold lg:mt-15 md:mt-10 mt-5">{actualBlog.titulo}</h1>
         <img src={actualBlog.imagen} className="rounded-md w-full mt-10" />
         <div className="flex flex-row gap-5 mt-2 w-full pl-2">
 
@@ -21,9 +21,9 @@ const BlogPost = () => {
 
           {actualBlog.contenido.map((element, index) => {
             if (element.clave === "h2") {
-              return <h2 key={index} className="text-2xl font-semibold my-5 text-left w-full">{element.contenido}</h2>
+              return <h2 key={index} className="text-2xl font-semibold my-7 text-left w-full">{element.contenido}</h2>
             } else if (element.clave === "h3") {
-              return <h3 key={index} className="text-xl font-semibold my-5 text-left w-full">{element.contenido}</h3>
+              return <h3 key={index} className="text-xl font-semibold my-6 text-left w-full">{element.contenido}</h3>
             } else if (element.clave === "p") {
               return <p key={index} className="text-stone-400 my-5 text-left w-full">{element.contenido}</p>
             } else if (element.clave === "img") {
