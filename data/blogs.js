@@ -60,8 +60,8 @@ const blogs = [
                 contenido:"Si estás considerando una vivienda de calidad alta en un barrio cerrado, los terrenos suelen ser significativamente más grandes. Los lotes a partir de 900 m² y superiores ofrecen una amplitud que permite diseñar y construir propiedades con espacios lujosos y cómodos. En estos entornos, es común encontrar terrenos tipo chacras, que proporcionan una experiencia de vida más exclusiva y conectada con la naturaleza."
             },
             {
-            clave: "p",
-            contenido: "En estos casos, la superficie generosa del terreno permite no solo la construcción de una vivienda espaciosa, sino también la incorporación de áreas recreativas, jardines extensos y otros elementos que elevan la calidad de vida."
+                clave: "p",
+                contenido: "En estos casos, la superficie generosa del terreno permite no solo la construcción de una vivienda espaciosa, sino también la incorporación de áreas recreativas, jardines extensos y otros elementos que elevan la calidad de vida."
             },
             {
                 clave: "h2",
