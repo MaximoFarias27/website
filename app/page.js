@@ -18,8 +18,16 @@ export default function HomePage() {
 
         {/* Nosotros */}
         <Carousel />
+        <h3 className="w-full md:text-2xl text-xl mb-10 subrayado-rojo font-bold mt-10">Inversiones Inmobiliarias en Sierras Chicas</h3>
+
         <p className="w-full md:text-lg text-md mb-8">
-          Por otra parte, otro aspecto muy importante dentro de nuestra profesión, es la Administración. Y volvemos a lo simple, cobrar un alquiler mensual, emitir un recibo es tarea sencilla. Mantener el valor del Patrimonio con el paso del tiempo es el verdadero desafío. Y ahí está la clave. Desde la redacción del contrato, las garantías, la intermediación permanente llevando claridad a las partes ante dudas que generen conflictos de intereses, requiere de una profesionalidad, claridad en el conocimiento, y atención permanente. Por todo esto, a la hora de elegir una inmobiliaria, no contrates dos, tres, cuatro, quedate con una, asociate, recordá que no se trata de un cartel y nada más, todos queremos obtener el negocio. Elegí la oficina con la que te sientas más cómodo.        </p>
+        Somos conscientes de lo que representa elegir una Inmobiliaria para realizar una operación. Confianza, transparencia, seguridad, son los valores fundamentales en nuestra profesión. La gran mayoría de las personas realizan compra venta de bienes inmuebles, una o dos veces en toda su vida. Son muy pocos los que concretan operaciones con frecuencia, y esto puede generar, en algunos casos, desconcierto, desconfianza, e incertidumbre a la hora de elegir.        </p>
+        <p className="w-full md:text-lg text-md mb-8">
+        Hay muchos aspectos al momento de trabajar una propiedad; colocar el cartel o subir la publicación en las redes, es el trabajo más simple. El conocimiento Jurídico y la capacidad de negociación son fundamentales para lograr el resultado deseado, una operación inmobiliaria con ambas partes satisfechas.
+        </p>
+        <p className="w-full md:text-lg text-md mb-8">
+        Por otra parte, otro aspecto muy importante dentro de nuestra profesión, es la Administración. Y volvemos a lo simple, cobrar unalquiler mensual, emitir un recibo es tarea sencilla. Mantener el valor del Patrimonio de nuestros clientes con el paso del tiempo es nuestro compromiso. Y ahí está la clave. Desde la redacción del contrato, las garantías, la intermediación permanente llevando claridad a las partes ante dudas que generen conflictos de intereses, requiere de una profesionalidad, claridad en el conocimiento, dedicación. Por todo esto, a la hora de elegir una inmobiliaria, no contrates dos, tres, cuatro, quedate con una; asociate, recordá que no se trata de un cartel y nada más, todos queremos obtener el negocio. Elegí la oficina con la que te sientas más cómodo y sobre todo la que te genere confianza.        </p>
+        
         <h3 className="w-full md:text-2xl text-xl mb-10 subrayado-rojo font-bold mt-10">Misión</h3>
         <p className="w-full md:text-lg text-md mb-8">
           Nuestra misión es brindar asesoramiento integral y personalizado, entendiendo las necesidades y aspiraciones de nuestros clientes. El objetivo es garantizar que cada paso del proceso sea claro, seguro y satisfactorio, creando un impacto duradero en la vida de las personas que confían en nosotros.        </p>

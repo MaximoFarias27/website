@@ -41,7 +41,7 @@ const FAQs = () => {
               <div className="flex justify-between items-center w-full">
                 <div>
                   <p
-                    className={`flex justify-center items-center font-bold text-xl ${
+                    className={`flex justify-center items-center font-bold md:text-xl text-lg ${
                       showAnswer[index] ? "" : "font-semibold"
                     }`}
                   >
@@ -65,7 +65,7 @@ const FAQs = () => {
               </div>
               {showAnswer[index] && (
                 <div className="mt-6 w-full">
-                  <p className="text-base leading-6 font-normal">
+                  <p className="leading-6 font-normal lg:text-lg md:text-md text-sm">
                     {answer[index]}
                   </p>
                 </div>

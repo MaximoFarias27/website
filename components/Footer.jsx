@@ -30,7 +30,7 @@ export const Footer = () => {
           <h3 className="text-md mb-1 font-bold">Oficina Río Ceballos</h3>
           <p className="text-sm mt-1">
             {" "}
-            <b>Telefono:</b> 3543 451037
+            <b>Telefono Fijo:</b> 3543 451037
           </p>
           <p className="text-sm mt-1">
             {" "}
@@ -42,13 +42,13 @@ export const Footer = () => {
           </p>
           <p className="text-sm mt-1 mb-3">
             {" "}
-            <b>Direccion:</b> Av. San Martín 4185, Río Ceballos, Córdoba
+            <b>Direccion:</b> Av. San Martín 4185, Río Ceballos, Pcia de Córdoba
           </p>
           <div className="bg-white w-full h-[2px] my-8 lg:my-2"></div>
           <h3 className="text-md mb-1 font-bold mt-3">Oficina Salsipuedes</h3>
           <p className="text-sm mt-1">
             {" "}
-            <b>Telefono:</b> 3543 620495
+            <b>Telefono Fijo:</b> 3543 620495
           </p>
           <p className="text-sm mt-1">
             {" "}
@@ -56,7 +56,7 @@ export const Footer = () => {
           </p>
           <p className="text-sm mt-1">
             {" "}
-            <b>Dirección:</b> Av. Gral Paz 2 Esq Ruta E53, Salsipuedes
+            <b>Dirección:</b>  Av. Gral Paz 2 Esq Ruta E53, Salsipuedes, Pcia de Córdoba
           </p>
         </div>
       </footer>

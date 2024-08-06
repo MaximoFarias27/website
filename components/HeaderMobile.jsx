@@ -60,7 +60,7 @@ export const HeaderMobile = () => {
       </nav>
         <ul
           className={`z-10 absolute transition duration-500 w-full md:hidden justify-center items-center fondo-rojo py-1 flex flex-col text-center ${
-            open ? "-translate-y-[40px]" : "-translate-y-[280px]"
+            open ? "-translate-y-[40px]" : "-translate-y-[300px]"
           }`}
           onClick={() => setOpen(false)}
         >

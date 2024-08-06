@@ -17,7 +17,7 @@ const blogs = [
             },
             {
                 clave: "h3",
-                contenido: "Terrenos para viviendas de calidad media"
+                contenido: "Lotes para viviendas tipo de calidad media, y media alta"
             },
             {
                 clave: "img",
@@ -25,7 +25,7 @@ const blogs = [
             },
             {
                 clave: "p",
-                contenido: "Para una residencia de calidad media o media alta, un terreno con un frente extenso, pero no mayor a 20 metros, es ideal. Este tamaño ofrece suficiente espacio para una construcción funcional sin generar costos excesivos en impuestos. Un terreno con estas dimensiones permite la construcción de una casa con un frente atractivo, doble entrada de auto y un pasillo cómodo que accede al patio trasero. Este espacio adicional es perfecto para incluir una pileta y una galería con asador, elementos deseables para el disfrute familiar y social."
+                contenido: "Para una residencia de calidad media o media alta, un terreno de 25 metros de frente y 35 metros de fondo, es ideal. Este tamaño ofrece suficiente espacio para una construcción funcional sin generar costos excesivos en impuestos. Un terreno con estas dimensiones permite la construcción de una casa con un frente atractivo, doble entrada de auto y un pasillo cómodo que accede al patio trasero. Este espacio adicional es perfecto para incluir una pileta y una galería con asador, elementos deseables para el disfrute familiar y social."
             },
             {
                 clave: "p",
@@ -33,7 +33,7 @@ const blogs = [
             },
             {
                 clave:"h3",
-                contenido:"Viviendas económicas: funcionalidad y eficiencia"
+                contenido:"Vivienda Familia Tipo: funcionalidad y eficiencia"
             },
             {
                 clave:"img",
@@ -41,15 +41,11 @@ const blogs = [
             },
             {
                 clave: "p",
-                contenido: "Para las viviendas económicas, orientadas a familias tipo, los terrenos más compactos son la opción más práctica. Un terreno con un frente entre 10 y 12 metros y un fondo de 30 a 35 metros puede ser suficiente para construir una vivienda con características esenciales como una entrada cubierta para auto, dos dormitorios y materiales económicos. La superficie construida en estos terrenos suele oscilar entre 55 y 65 metros cuadrados, proporcionando el espacio necesario para una vida cómoda y funcional. Este tipo de disposición es ideal para quienes buscan una solución accesible sin renunciar a la funcionalidad y el confort."
+                contenido: "Para las viviendas económicas, orientadas a familias tipo, los terrenos más compactos son la opción práctica. Un terreno con un frente entre 10 y 12 metros y un fondo de 30 a 35 metros puede ser suficiente para construir una vivienda con características esenciales con una entrada cubierta para auto, dos dormitorios y materiales económicos/estándar. La superficie construida en estos terrenos suele oscilar entre 55 y 65 metros cuadrados, proporcionando el espacio necesario para una vida cómoda y funcional. Este tipo de disposición es ideal para quienes buscan una solución accesible sin renunciar a la funcionalidad y el confort."
             },
             {
                 clave:"h3",
-                contenido:"Terrenos para viviendas de calidad alta"
-            },
-            {
-                clave:"h3",
-                contenido:"Casas en barrios cerrados y chacras"
+                contenido:"Lotes en Barrios Cerrados para Viviendas de Calidad Premium"
             },
             {
                 clave:"img",
@@ -57,11 +53,7 @@ const blogs = [
             },
             {
                 clave: "p",
-                contenido:"Si estás considerando una vivienda de calidad alta en un barrio cerrado, los terrenos suelen ser significativamente más grandes. Los lotes a partir de 900 m² y superiores ofrecen una amplitud que permite diseñar y construir propiedades con espacios lujosos y cómodos. En estos entornos, es común encontrar terrenos tipo chacras, que proporcionan una experiencia de vida más exclusiva y conectada con la naturaleza."
-            },
-            {
-                clave: "p",
-                contenido: "En estos casos, la superficie generosa del terreno permite no solo la construcción de una vivienda espaciosa, sino también la incorporación de áreas recreativas, jardines extensos y otros elementos que elevan la calidad de vida."
+                contenido:"Si estás considerando una vivienda de calidad alta en un barrio cerrado, los terrenos suelen ser significativamente más grandes. A partir de 1200 m² y superiores ofrecen una amplitud que permite diseñar y construir propiedades con espacios amplios y funcionales. En estos entornos, es común encontrar parcelas tipo chacra con abundante vegetación autóctona, que proporcionan una experiencia de vida conectada con la naturaleza."
             },
             {
                 clave: "h2",
@@ -69,7 +61,7 @@ const blogs = [
             },
             {
                 clave: "p",
-                contenido: "La elección del terreno adecuado es fundamental para el éxito de tu proyecto de construcción. Desde la funcionalidad de un lote compacto para viviendas económicas hasta la amplitud de terrenos grandes en barrios cerrados, cada opción ofrece beneficios específicos que deben alinearse con tus necesidades y expectativas. En Inmobiliaria Farias Cornejo, estamos aquí para ayudarte a encontrar el terreno ideal que se ajuste a tu visión y a tus objetivos de construcción"
+                contenido: "La elección del terreno adecuado es fundamental para el éxito de tu proyecto. Desde la funcionalidad de un lote compacto para viviendas económicas hasta la amplitud de terrenos grandes en barrios cerrados, cada opción ofrece beneficios específicos que deben alinearse con tus necesidades y expectativas. En Inmobiliaria Farias Cornejo, estamos para ayudarte a encontrar el terreno ideal que se ajuste a tu visión y objetivos de construcción."
             }
         ]
     },
