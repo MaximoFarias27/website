@@ -48,7 +48,7 @@ export const Footer = () => {
           <h3 className="text-md mb-1 font-bold mt-3">Oficina Salsipuedes</h3>
           <p className="text-sm mt-1">
             {" "}
-            <b>Telefono Fijo:</b> 3543 620495
+            <b>Celular:</b> 3543 620495
           </p>
           <p className="text-sm mt-1">
             {" "}
