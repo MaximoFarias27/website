@@ -17,10 +17,10 @@ const FAQs = () => {
   };
 
   const questions = [
-    "¿Qué servicios ofrece Inmobiliaria Farias Cornejo?",
-    "¿Por qué elegir a Inmobiliaria Farias Cornejo?",
-    "Alquilar mi propiedad con inmobiliaria farias cornejo",
-    "Consideraciones para la compra venta de una propiedad",
+    "¿Qué servicios ofrecemos?",
+    "¿Por qué elegirnos?",
+    "Alquilar mi propiedad.",
+    "Consideraciones para la compra venta de una propiedad.",
   ];
 
   const answer = [

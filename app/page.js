@@ -11,7 +11,7 @@ export default function HomePage() {
       <div className="max-w-[1200px] w-[90%] flex flex-col items-center mb-20">
         <Hero />
         <p className="w-full md:text-lg text-md mb-8">
-          Confiabilidad, seguridad, asesoramiento de expertos son las cualidades que nos distinguen. Trabajamos con el profesionalismo necesario, para guiarlos en cada paso. Comprar o vender propiedades en Sierras Chicas y/o ciudad de Córdoba activa nuestra misión hacer de su experiencia inmobiliaria un proceso transparente seguro y exitoso.
+          Confiabilidad, seguridad, asesoramiento son las cualidades que nos distinguen. Trabajamos con el profesionalismo necesario, para guiarlos en cada paso. Comprar o vender propiedades en Sierras Chicas y/o ciudad de Córdoba activa nuestra misión, hacer de su experiencia inmobiliaria un proceso transparente, seguro y exitoso.
         </p>
 
 
@@ -21,13 +21,14 @@ export default function HomePage() {
         <h3 className="w-full md:text-2xl text-xl mb-10 subrayado-rojo font-bold mt-10">Inversiones Inmobiliarias en Sierras Chicas</h3>
 
         <p className="w-full md:text-lg text-md mb-8">
-        Somos conscientes de lo que representa elegir una Inmobiliaria para realizar una operación. Confianza, transparencia, seguridad, son los valores fundamentales en nuestra profesión. La gran mayoría de las personas realizan compra venta de bienes inmuebles, una o dos veces en toda su vida. Son muy pocos los que concretan operaciones con frecuencia, y esto puede generar, en algunos casos, desconcierto, desconfianza, e incertidumbre a la hora de elegir.        </p>
+          Somos conscientes de lo que representa elegir una Inmobiliaria para realizar una operación. Confianza, transparencia, seguridad, son los valores fundamentales en nuestra profesión. La gran mayoría de las personas realizan compra venta de bienes inmuebles, una o dos veces en toda su vida. Son muy pocos los que concretan operaciones con frecuencia, y esto puede generar, en algunos casos, desconcierto, desconfianza, e incertidumbre a la hora de elegir.        </p>
         <p className="w-full md:text-lg text-md mb-8">
-        Hay muchos aspectos al momento de trabajar una propiedad; colocar el cartel o subir la publicación en las redes, es el trabajo más simple. El conocimiento Jurídico y la capacidad de negociación son fundamentales para lograr el resultado deseado, una operación inmobiliaria con ambas partes satisfechas.
+          Hay muchos aspectos al momento de trabajar una propiedad; colocar el cartel o subir la publicación en las redes, es el trabajo más simple. El conocimiento Jurídico y la capacidad de negociación son fundamentales para lograr el resultado deseado, una operación inmobiliaria con ambas partes satisfechas.
         </p>
         <p className="w-full md:text-lg text-md mb-8">
-        Por otra parte, otro aspecto muy importante dentro de nuestra profesión, es la Administración. Y volvemos a lo simple, cobrar unalquiler mensual, emitir un recibo es tarea sencilla. Mantener el valor del Patrimonio de nuestros clientes con el paso del tiempo es nuestro compromiso. Y ahí está la clave. Desde la redacción del contrato, las garantías, la intermediación permanente llevando claridad a las partes ante dudas que generen conflictos de intereses, requiere de una profesionalidad, claridad en el conocimiento, dedicación. Por todo esto, a la hora de elegir una inmobiliaria, no contrates dos, tres, cuatro, quedate con una; asociate, recordá que no se trata de un cartel y nada más, todos queremos obtener el negocio. Elegí la oficina con la que te sientas más cómodo y sobre todo la que te genere confianza.        </p>
-        
+          Por otra parte, otro aspecto muy importante dentro de nuestra profesión, es la Administración. Y volvemos a lo simple, cobrar un alquiler mensual, emitir un recibo es tarea sencilla. Mantener el valor del Patrimonio de nuestros clientes con el paso del tiempo es nuestro compromiso. Y ahí está la clave. Desde la redacción del contrato, las garantías, la intermediación permanente llevando claridad a las partes ante dudas que generen conflictos de intereses, requiere de una profesionalidad, claridad en el conocimiento, dedicación. Por todo esto, a la hora de elegir una inmobiliaria, no contrates dos, tres, cuatro, quedate con una; asociate, recordá que no se trata de un cartel y nada más, todos queremos obtener el negocio. Elegí la oficina con la que te sientas más cómodo y sobre todo la que te genere confianza.
+        </p>
+
         <h3 className="w-full md:text-2xl text-xl mb-10 subrayado-rojo font-bold mt-10">Misión</h3>
         <p className="w-full md:text-lg text-md mb-8">
           Nuestra misión es brindar asesoramiento integral y personalizado, entendiendo las necesidades y aspiraciones de nuestros clientes. El objetivo es garantizar que cada paso del proceso sea claro, seguro y satisfactorio, creando un impacto duradero en la vida de las personas que confían en nosotros.        </p>
@@ -57,7 +58,7 @@ export default function HomePage() {
           <div className=" flex flex-col md:w-2/4 md:items-end items-center">
             <h3 className="text-center md:text-4xl text-xl md:text-right font-semibold mb-8 text-white md:w-full">Venta de propiedades</h3>
             <p className="w-full md:text-lg text-sm mb-8 text-white md:text-right">
-            Ofrecemos un servicio profesional y de amplia trayectoria para la venta de propiedades. Te acompañamos desde la tasación hasta la firma de la escritura, asegurando una transacción transparente, confiable y segura. Ya sea que quieras vender o comprar. ¡Estamos aquí para asesorarte!.
+              Ofrecemos un servicio profesional y de amplia trayectoria para la venta de propiedades. Te acompañamos desde la tasación hasta la firma de la escritura, asegurando una transacción transparente, confiable y segura. Ya sea que quieras vender o comprar. ¡Estamos aquí para asesorarte!.
             </p>
             <Link
               href="https://fariascorejo58.kitepropcrm.com/site/properties/sale"
