@@ -11,7 +11,7 @@ export const Footer = () => {
             src="/Logo.png"
             width={1000}
             height={1000}
-            className="w-full max-w-[500px]"
+            className="w-full mx-auto max-w-[400px] md:mb-10"
           />
           <div className="text-white flex justify-evenly text-xl">
             <Link className=" hover:underline" href="/">

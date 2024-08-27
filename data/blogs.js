@@ -3,7 +3,7 @@ const blogs = [
         id: 1,
         titulo: "Cómo afecta la superficie del terreno en la construcción",
         imagen: "/blog-1/1.webp",
-        resumen: "Resumen del blog 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A iaculis at erat pellentesque adipiscing commodo elit at. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique. Hac habitasse platea dictumst vestibulum rhoncus est. Vulputate mi sit amet mauris. Eleifend mi in nulla posuere sollicitudin aliquam ultrices. Neque vitae tempus quam pellentesque. Nulla at volutpat diam ut. Duis convallis convallis tellus id interdum. Sem fringilla ut morbi tincidunt augue. Eu turpis egestas pretium aenean pharetra magna. Aliquam sem fringilla ut morbi tincidunt augue interdum. Adipiscing commodo elit at imperdiet dui accumsan sit. Id consectetur purus ut faucibus pulvinar elementum integer enim. Dui accumsan sit amet nulla facilisi morbi tempus. Sed risus pretium quam vulputate dignissim suspendisse.",
+        resumen: "La elección del terreno adecuado es fundamental para el éxito de tu proyecto. Desde la funcionalidad de un lote compacto para viviendas económicas hasta la amplitud de terrenos grandes en barrios cerrados, cada opción ofrece beneficios específicos que deben alinearse con tus necesidades y expectativas.",
         fecha: "23/07/2024",
         autor: "J. Fabián Farias",
         contenido: [

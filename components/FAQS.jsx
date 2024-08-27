@@ -21,6 +21,7 @@ const FAQs = () => {
     "¿Por qué elegirnos?",
     "Alquilar mi propiedad.",
     "Consideraciones para la compra venta de una propiedad.",
+    "Alquilar una propiedad.",
   ];
 
   const answer = [
@@ -28,6 +29,7 @@ const FAQs = () => {
     "Nuestra trayectoria nos define con un alto nivel de compromiso y profesionalismo en la gestión de las propiedades de cada cliente. Priorizamos la transparencia y el asesoramiento personalizado, sumado a nuestra experiencia nos posiciona como la inmobiliaria mas fuerte de la región.",
     "Podes contactarnos vía teléfono, whatsapp o correo electrónico. Te vamos a guiar de forma segura en cada paso del proceso. Asumimos el compromiso a través de nuestra gestión para que puedas contar con una administración altamente eficiente.",
     "Cuando realizamos una operación inmobiliaria, sabemos que no se trata del mero hecho de adquirir o desprenderse de un bien inmueble. Una propiedad alberga un cúmulo de emociones que en cada caso tendrá sus características particulares. El nacimiento de nuestros hijos, las añoranzas de la rutina diaria, alegrías, tristezas, familia, historia. Todo esto, influye de una manera muy significativa para nuestros clientes al momento de decidir la venta. ⁠Para el comprador, la proyección del arraigo en un lugar y todo lo que eso implica para ese futuro, hace que la elección de la propiedad se transforme en un aspecto muy relevante. En cada operación realizada dejamos de lado el aspecto meramente comercial para enfocarnos en la necesidad de nuestros clientes.⁠",
+    "Ofrecemos un servicio simple y dinámico, evitando papelería o perdida de tiempo. Envíanos todo a través de WhatsApp. Cuando esté listo tu contrato, pasas por la escribanía, lo firmas, procedemos a la entrega inmediata de llaves, ¡Y listo!",
   ];
   return (
     <div className="lg:container lg:mx-auto md:px-6 px-4">
